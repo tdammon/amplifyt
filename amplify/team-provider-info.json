@@ -1,15 +1,28 @@
 {
     "amplifyt": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-amplifyt-amplifyt-102905-authRole",
-            "UnauthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-amplifyt-102905-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-amplifyt-102905-authRole",
+            "AuthRoleName": "amplify-amplifyt-amplifyt-132801-authRole",
+            "UnauthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-amplifyt-132801-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-amplifyt-132801-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-amplifyt-amplifyt-102905-deployment",
-            "UnauthRoleName": "amplify-amplifyt-amplifyt-102905-unauthRole",
-            "StackName": "amplify-amplifyt-amplifyt-102905",
-            "StackId": "arn:aws:cloudformation:us-east-1:754901763017:stack/amplify-amplifyt-amplifyt-102905/d4690af0-8d52-11ea-b56f-0a4fdb0c1726",
-            "AmplifyAppId": "dca52l90w1bjm"
+            "DeploymentBucketName": "amplify-amplifyt-amplifyt-132801-deployment",
+            "UnauthRoleName": "amplify-amplifyt-amplifyt-132801-unauthRole",
+            "StackName": "amplify-amplifyt-amplifyt-132801",
+            "StackId": "arn:aws:cloudformation:us-east-1:754901763017:stack/amplify-amplifyt-amplifyt-132801/d3079cd0-8d6b-11ea-b87e-0a8267cebc39",
+            "AmplifyAppId": "dciyvp6bebkzr"
+        }
+    },
+    "newtest": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyt-newtest-145000-authRole",
+            "UnauthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-newtest-145000-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::754901763017:role/amplify-amplifyt-newtest-145000-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifyt-newtest-145000-deployment",
+            "UnauthRoleName": "amplify-amplifyt-newtest-145000-unauthRole",
+            "StackName": "amplify-amplifyt-newtest-145000",
+            "StackId": "arn:aws:cloudformation:us-east-1:754901763017:stack/amplify-amplifyt-newtest-145000/4740dfc0-8d77-11ea-846e-12da3ecd6186",
+            "AmplifyAppId": "d3dc9xcrpto8ul"
         }
     }
 }
