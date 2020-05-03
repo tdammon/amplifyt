@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import {API} from 'aws-amplify'
+import Amplify, {API} from 'aws-amplify'
+import awsmobile from './aws-exports'
+
+// API.configure(awsmobile)
 
 class App extends Component {
 
