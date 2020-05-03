@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Amplify, {API} from 'aws-amplify'
-import aws from './aws-exports'
+import aws from '../aws-exports'
 
 API.configure(aws)
 
