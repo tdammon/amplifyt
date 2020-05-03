@@ -13,7 +13,7 @@ const awsmobile = {
     "aws_cloud_logic_custom": [
         {
             "name": "apitest",
-            "endpoint": "https://ynmug67p61.execute-api.us-east-1.amazonaws.com/amplifyt",
+            "endpoint": " https://2rlay3p6s7.execute-api.us-east-1.amazonaws.com/default/apitestlambda-amplifyt",
             "region": "us-east-1"
         }
     ]
