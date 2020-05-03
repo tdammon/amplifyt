@@ -5,7 +5,7 @@ import {API} from 'aws-amplify'
 class App extends Component {
 
   triggerAPI = () => {
-    API.get('apitest', '/apitest', {})
+    API.get('apitest', '/apitest', {headers: {}, response: true, queryStringParameters: {}})
     .then(response=> {console.log(response)})
     .catch(error=> {console.log(error)})
   }
