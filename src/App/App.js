@@ -8,7 +8,7 @@ class App extends Component {
       return(
         <div>
             <p>Hello</p>
-            <button >
+            <button onClick={()=> axios.post('/apitestlambda-amplifyt', {users:5})}>
               Hi
             </button>
         </div>
