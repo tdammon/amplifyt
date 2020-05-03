@@ -7,7 +7,7 @@ class App extends Component {
   triggerAPI = () => {
     API.get('apitest', '/apitest', {})
     .then(response=> {console.log(response)})
-    .catch(error=> {console.log(error.response)})
+    .catch(error=> {console.log(error)})
   }
 
   render() {
