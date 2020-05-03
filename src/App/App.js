@@ -8,7 +8,7 @@ class App extends Component {
       return(
         <div>
             <p>Hello</p>
-            <button onClick={}>
+            <button >
               Hi
             </button>
         </div>
