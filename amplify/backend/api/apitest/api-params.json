@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/apitest",
+            "lambdaFunction": "apitestlambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "apitest",
+    "apiName": "apitest",
+    "functionArns": [
+        {
+            "lambdaFunction": "apitestlambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyt-amplifyt-102905-authRole",
+        "unAuthRoleName": "amplify-amplifyt-amplifyt-102905-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "apitestlambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
